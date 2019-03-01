@@ -1,0 +1,48 @@
+body {
+  background-color: #fcfcfc;
+}
+.nav-wrapper {
+  text-transform: uppercase;
+}
+nav .brand-logo {
+  left: 15px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 15px;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.articles-container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.text-center {
+  text-align: center;
+}
+@media ( min-width: 768px ) {
+  .site-feature {
+    margin-bottom: -200px;
+  }
+}
+.media-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.card-no-shadow {
+  box-shadow: none;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-right {
+  text-align: right;
+}
+.article-grid .article-item:nth-child(odd) {
+  clear: left;
+}
